@@ -200,6 +200,7 @@ public class Main {
         System.out.println();
     }
 
+    //Save File function
     private static void saveFile(ArrayList<String> myArrList, String fileName) {
         Scanner scanner = new Scanner(System.in);
         //Ask user for filename if this is a new array and not an opened one
